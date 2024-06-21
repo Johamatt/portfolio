@@ -1,6 +1,8 @@
+import Grid from "@/components/grid";
 import Hero from "@/components/hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { AuroraBackground } from "@/components/ui/aurora-background";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 import { FaHome } from "react-icons/fa";
 
 export default function Home() {
@@ -10,13 +12,8 @@ export default function Home() {
         <FloatingNav
           navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
         />
-        <AuroraBackground>
-          <Hero />
-        </AuroraBackground>
-
-        <div className="mb-72">
-          <p>test float</p>
-        </div>
+        <Hero />
+        <Grid />
       </div>
     </main>
   );
