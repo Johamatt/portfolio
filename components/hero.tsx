@@ -16,10 +16,18 @@ const Hero = () => {
               words="Eager to learn and grow in"
             />
 
-            <FlipWords words={["Web-Development", "Dev-ops"]} duration={3000} />
+            <FlipWords
+              words={[
+                "Web-Development",
+                "Mobile-Development",
+                "Dev-Ops",
+                "Full-Stack",
+              ]}
+              duration={3000}
+            />
 
             <p className="text-center mb-4 text-md md:text-lg lg:text-2xl text-white-100">
-              Hi, I&apos;m Johannes, Full-stack Developer from Helsinki Finland
+              Hi, I&apos;m Johannes, Full-Stack Developer from Helsinki Finland
             </p>
 
             <a href="about">

@@ -1,5 +1,6 @@
 import Grid from "@/components/grid";
 import Hero from "@/components/hero";
+import Projects from "@/components/projects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { BackgroundBeams } from "@/components/ui/background-beams";
@@ -13,7 +14,7 @@ export default function Home() {
           navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
         />
         <Hero />
-        <Grid />
+        <Projects />
       </div>
     </main>
   );
