@@ -1,10 +1,7 @@
 import Hero from "@/components/hero";
 import Projects from "@/components/projects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import { AuroraBackground } from "@/components/ui/aurora-background";
-import { BackgroundBeams } from "@/components/ui/background-beams";
 import TechStack from "@/components/techStack";
-import { FaHome } from "react-icons/fa";
 import Footer from "@/components/footer";
 import { navItems } from "@/data";
 

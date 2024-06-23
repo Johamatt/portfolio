@@ -30,7 +30,7 @@ const Hero = () => {
               Hi, I&apos;m Johannes, Full-Stack Developer from Helsinki Finland
             </p>
 
-            <a href="techStack">
+            <a href="#techStack">
               <ShimmerButton buttonText="Show my work" />
             </a>
           </div>
