@@ -27,7 +27,7 @@ const config = {
       colors: {
         black: {
           DEFAULT: "#000",
-          100: "#000319",
+          100: "#18181b",
         },
         white: {
           DEFAULT: "#FFF",
@@ -71,6 +71,11 @@ const config = {
         },
       },
       animation: {
+        first: "moveVertical 30s ease infinite",
+        second: "moveInCircle 20s reverse infinite",
+        third: "moveInCircle 40s linear infinite",
+        fourth: "moveHorizontal 40s ease infinite",
+        fifth: "moveInCircle 20s ease infinite",
         aurora: "aurora 60s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
