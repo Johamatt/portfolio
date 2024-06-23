@@ -7,15 +7,20 @@ import { Project } from "@/types";
 const Projects = () => {
   return (
     <div>
-      <div className="pt-20 bg-black-100" id="projects">
-        <h1 className="font-bold text-4xl md:text-5xl text-center md:mb-12 mb-8 lg:mb-[12vh]">
-          A small selection of{" "}
-          <span className="text-purple-400">recent projects</span>
-        </h1>
+      <div
+        className="pt-10 bg-black-100 relative bg-grid-pattern bg-cover bg-center bg-no-repeat"
+        id="projects"
+      >
+        <div className="bg-black-100">
+          <h1 className="font-bold text-4xl md:text-5xl text-center md:mb-12 mb-8 lg:mb-[12vh] pb-10 pt-10">
+            A small selection of{" "}
+            <span className="text-purple-400">recent projects</span>
+          </h1>
+        </div>
         <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
           {projects.map((item: Project) => (
             <div
-              className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] md:mb-[20vh]"
+              className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] md:mb-[20vh] "
               key={item.id}
             >
               <PinContainer title={item.link} href={item.link}>
@@ -48,8 +53,8 @@ const Projects = () => {
                   {item.description}
                 </p>
 
-                <div className="flex items-center justify-between mt-7 mb-3">
-                  <div className="flex items-center">
+                <div className="flex items-center justify-between mt-7 mb-3 0">
+                  <div className="flex items-center ">
                     {item.iconList.map((icon, index) => (
                       <div
                         key={index}
@@ -63,7 +68,7 @@ const Projects = () => {
                     ))}
                   </div>
 
-                  <div className="flex justify-center items-center">
+                  <div className="flex justify-center items-center ">
                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                       Check Git Repository
                     </p>

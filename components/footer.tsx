@@ -20,7 +20,7 @@ const Footer = () => {
       {/* background grid */}
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw] md:mt-10 mb-5 mx-10">
+        <h1 className="heading lg:max-w-[45vw] md:mt-10 mb-5 mx-10 lg:text-2xl">
           Feel free to connect with me! You can reach out via{" "}
           <span className="text-purple-300 font-bold">
             LinkedIn, Email, or GitHub.
