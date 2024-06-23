@@ -6,14 +6,13 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import TechStack from "@/components/techStack";
 import { FaHome } from "react-icons/fa";
 import Footer from "@/components/footer";
+import { navItems } from "@/data";
 
 export default function Home() {
   return (
     <main>
       <div>
-        <FloatingNav
-          navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
-        />
+        <FloatingNav navItems={navItems} />
         <Hero />
         <div className="flex justify-center">
           <hr className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 h-1 w-[75vh] rounded-lg shadow-lg" />

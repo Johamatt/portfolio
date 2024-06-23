@@ -7,7 +7,7 @@ import { Project } from "@/types";
 const Projects = () => {
   return (
     <div>
-      <div className="pt-20 bg-black-100">
+      <div className="pt-20 bg-black-100" id="projects">
         <h1 className="font-bold text-4xl md:text-5xl text-center md:mb-12 mb-8 lg:mb-[12vh]">
           A small selection of{" "}
           <span className="text-purple-400">recent projects</span>

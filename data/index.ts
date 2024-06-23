@@ -132,7 +132,7 @@ export const projects: Array<Project> = [
 ];
 
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "Tech Stack", link: "#techStack" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
