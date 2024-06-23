@@ -1,12 +1,14 @@
-// StarRating.js
 import React from "react";
 
-const StarRating = ({ rating }: any) => {
+interface StarRatingProps {
+  rating: number;
+}
+
+const StarRating = ({ rating }: StarRatingProps) => {
   const stars = [];
 
   for (let i = 1; i <= 5; i++) {
     if (rating >= i) {
-      // Full star
       stars.push(
         <svg
           key={i}
@@ -19,7 +21,6 @@ const StarRating = ({ rating }: any) => {
         </svg>
       );
     } else if (rating >= i - 0.5) {
-      // Half star
       stars.push(
         <svg
           key={i}
@@ -40,7 +41,6 @@ const StarRating = ({ rating }: any) => {
         </svg>
       );
     } else {
-      // Empty star
       stars.push(
         <svg
           key={i}

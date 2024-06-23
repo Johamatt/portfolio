@@ -7,7 +7,7 @@ export const techStack = [
     designation: "Experience: 4 years",
     image: "/javascript.svg",
     className: "bg-yellow",
-    rating: "3.5",
+    rating: 3.5,
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const techStack = [
     designation: "Experience: 4 years",
     image: "/react.svg",
     className: "bg-black",
-    rating: "3.5",
+    rating: 3.5,
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ export const techStack = [
     designation: "Experience: 2 years",
     image: "/typescript.svg",
     className: "bg-white",
-    rating: "3",
+    rating: 3,
   },
 
   {
@@ -32,7 +32,7 @@ export const techStack = [
     designation: "Experience: 5 years",
     image: "/java.svg",
     className: "bg-white",
-    rating: "3",
+    rating: 3,
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ export const techStack = [
     designation: "Experience: 4 years",
     image: "/spring.svg",
     className: "bg-white",
-    rating: "3",
+    rating: 3,
   },
   {
     id: 6,
@@ -48,7 +48,7 @@ export const techStack = [
     designation: "Experience: 4 years",
     image: "/kotlin.svg",
     className: "bg-black",
-    rating: "2",
+    rating: 2,
   },
   {
     id: 7,
@@ -56,7 +56,7 @@ export const techStack = [
     designation: "Experience: 2 years",
     image: "/postgresql.svg",
     className: "bg-white-200",
-    rating: "2",
+    rating: 2,
   },
   {
     id: 8,
@@ -64,7 +64,7 @@ export const techStack = [
     designation: "Experience: 2 years",
     image: "/nestjs.svg",
     className: "bg-white-200",
-    rating: "1.5",
+    rating: 1.5,
   },
   {
     id: 9,
@@ -72,7 +72,7 @@ export const techStack = [
     designation: "Experience: 2 years",
     image: "/nextjs.svg",
     className: "bg-white-200",
-    rating: "1.5",
+    rating: 1.5,
   },
   {
     id: 9,
@@ -80,7 +80,7 @@ export const techStack = [
     designation: "Experience: 2 years",
     image: "/aws.svg",
     className: "bg-white-200",
-    rating: "1",
+    rating: 1,
   },
 ];
 
@@ -135,4 +135,18 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
+];
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/github.svg",
+    ref: "https://github.com/Johamatt",
+  },
+
+  {
+    id: 2,
+    img: "/linkedin.svg",
+    ref: "https://www.linkedin.com/in/johannes-mattila-17972a209/",
+  },
 ];

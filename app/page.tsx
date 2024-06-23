@@ -5,6 +5,7 @@ import { AuroraBackground } from "@/components/ui/aurora-background";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import TechStack from "@/components/techStack";
 import { FaHome } from "react-icons/fa";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         </div>
 
         <Projects />
+        <Footer />
       </div>
     </main>
   );
