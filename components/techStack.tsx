@@ -7,10 +7,7 @@ import { Spotlight } from "./ui/spotlight";
 
 function TechStack() {
   return (
-    <div
-      className="py-20 px-10 lg:px-20 md:px-20 bg-black-100 relative bg-grid-pattern bg-cover bg-center bg-no-repeat"
-      id="techStack"
-    >
+    <div className="py-20 px-10 lg:px-20 md:px-20 " id="techStack">
       <h1 className="font-bold text-4xl md:text-5xl text-center mb-4">
         My <span className="text-purple-400">TechStack</span>
       </h1>

@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="max-w-[90vw] md:max-w-2xl lg:max-w-[80w] flex flex-col items-center justify-center">
             <TextGenerateEffect
               className="text-center text-[40px]"
-              words="Eager to learn and grow in"
+              words="Passionate about continuous learning in"
             />
 
             <FlipWords

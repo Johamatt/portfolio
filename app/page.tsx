@@ -14,12 +14,19 @@ export default function Home() {
         <div className="flex justify-center">
           <hr className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 h-1 w-[75vh] rounded-lg shadow-lg" />
         </div>
-        <TechStack />
-        <div className="flex justify-center">
-          <hr className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 h-1 w-[75vh] rounded-lg shadow-lg" />
-        </div>
 
-        <Projects />
+        <div className="relative bg-grid-pattern bg-cover bg-center ">
+          <div className="flex justify-center">
+            <hr className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 h-1 w-[75vh] rounded-lg shadow-lg" />
+          </div>
+
+          <TechStack />
+          <div className="flex justify-center">
+            <hr className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 h-1 w-[75vh] rounded-lg shadow-lg" />
+          </div>
+
+          <Projects />
+        </div>
         <Footer />
       </div>
     </main>
