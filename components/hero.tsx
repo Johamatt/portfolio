@@ -3,7 +3,6 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import ShimmerButton from "./ui/ShimmerButton";
 import { FlipWords } from "./ui/flip-words";
 import { AuroraBackground } from "./ui/aurora-background";
-import { BackgroundBeams } from "./ui/background-beams";
 
 const Hero = () => {
   return (
@@ -36,7 +35,6 @@ const Hero = () => {
           </div>
         </div>
       </AuroraBackground>
-      <BackgroundBeams />
     </div>
   );
 };
