@@ -87,24 +87,23 @@ export const techStack = [
 export const projects: Array<Project> = [
   {
     id: 1,
-    title: "MapRoam",
+    title: "Sport Tracker",
     description:
-      "An application with an Android UI where users can collect points by visiting specific locations, featuring map-pin clustering. The database used is PostGIS, which can be initialized in the backend with any GeoJSON file. Includes authentication.",
-    img: "/MapRoam1.png",
+      "A sports app for Android that helps users find sports activities at approximately 30,000 locations around Finland. Includes GPS tracking to record user workouts and track progress.",
+    img: "/MapRoam2.png",
     iconList: [
       "/typescript.svg",
       "/nestjs.svg",
       "/kotlin.svg",
       "/postgresql.svg",
-      "/googlecloud.svg",
     ],
     link: "https://github.com/Johamatt/RR-Android",
   },
   {
     id: 2,
-    title: "EventMap",
+    title: "Event Map",
     description:
-      "Mobile application for Android and iOS enabling users to discover events within the Helsinki metropolitan area, featuring user authentication.",
+      "Mobile application for Android and iOS enabling users to discover events within the Helsinki metropolitan area.",
     img: "/EventMap.png",
     iconList: [
       "/typescript.svg",
